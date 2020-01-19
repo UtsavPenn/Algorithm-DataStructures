@@ -1,0 +1,13 @@
+Min Heap Property:
+Each node in a tree has a key which is more extreme (greater or less) than or equal to the key of its parent.
+
+Time Complexity:
+offer & poll is O(log(n)) and for the peek() it is Constant time O(1) of java priority queue.
+
+
+
+
+
+
+Resources:
+https://www.youtube.com/watch?v=t0Cq6tVNRBA
