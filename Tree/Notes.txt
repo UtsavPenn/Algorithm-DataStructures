@@ -1,0 +1,8 @@
+Binary Search Tree:
+Binary Search Tree is a binary tree where the key in each node is greater than any key stored in the left sub-tree,
+and less than any key stored in the right sub-tree.
+
+
+
+Resources:
+https://www.youtube.com/watch?v=oSWTXtMglKE
