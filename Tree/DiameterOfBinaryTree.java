@@ -25,3 +25,5 @@ class Solution {
     }
 
   /** Time complexity - O(n) as we go through each node once
+Space complexity - O(n) size of our implicit call stack
+  **/
