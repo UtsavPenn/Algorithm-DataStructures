@@ -1,0 +1,25 @@
+DFS - Every node asks its children if it has a path to the destination .
+A number of recursive calls are made until the entire depth is traversed and hence it is called DFS.
+
+Depth First Search for a graph is similar to Depth First Traversal of a tree.
+The only catch here is, unlike trees, graphs may contain cycles, so we may come to the same node again.
+To avoid processing a node more than once, we use a boolean visited array.
+
+
+Applications - Finding Path, Topological Sorting, Detecting Cycles in a graph
+
+
+BFS - Every node goes to its neighbors before going deep. A queue is used here . For every node , check if
+its the final node , if not then queue up its children to the back of the queue. Ii is recommended for finding
+shortest path.
+
+Applications - Shortest Path, Peer to Peer Networks, Crawlers or Search Engines, Social Networking Websites
+
+
+
+Connected Graph
+A graph is connected if any two vertices of the graph are connected by a path.
+
+Disconnected Graph
+A graph is disconnected if at least two vertices of the graph are not connected by a path. If a graph G is
+ disconnected, then every maximal connected subgraph of G is called a connected component of the graph G.

@@ -22,7 +22,6 @@ class Solution {
               result[1] = map.get(compliment);
               return result;
           }
-
           map.put(nums[i],i);
         }
         return result;
